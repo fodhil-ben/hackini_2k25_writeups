@@ -1,4 +1,4 @@
-## Insecure Deserialization CTF Writeup
+## Insecure Deserialization lead to RCE
 
 The challenge had an endpoint that processed user-supplied serialized data.
 

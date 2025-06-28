@@ -1,4 +1,4 @@
-## Firebase CTF Writeup
+## Firebase Misconfiguration lead to reading admin sensitive data
 
 The challenge was about exploiting a misconfigured **Firebase backend** exposed in a **Vue.js app**. First, I inspected the source code and found Firebase credentials directly hardcoded in the frontend. Using those credentials, I tried interacting with **Firestore** and discovered that user information could potentially be updated.
 
